@@ -138,24 +138,24 @@ button {
 	bottom: 30px;
 	right: 30px;
 	z-index: 99;
+	box-shadow: 3px 3px 3px rgba(100,100,100,0.5);
 	background-image: url(images/moon3.png);
 }
 
 button:hover {
 	transition-duration: 0.3s;
-	box-shadow: 3px 3px 3px rgba(100,100,100,0.5);
 	border: solid 1px #b0b0b0;
 }
 
 .darkmode button {
 	background-color: #181818;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	background-image: url(images/sun3.png);
 }
 
 .darkmode button:hover {
 	transition-duration: 0.3s;
 	border: solid 1px #000000;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 p {
