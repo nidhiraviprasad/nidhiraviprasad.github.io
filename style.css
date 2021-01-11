@@ -102,6 +102,7 @@ h1 {
 	font-size: 40px;
 	font-weight: 900;
 	text-decoration: underline;
+	color: black;
 	/*animation: type 2.2s steps(16);
 	overflow: hidden;
 	white-space: nowrap;*/
@@ -196,6 +197,7 @@ h3 {
 	width: 100%;
 	margin: 0px auto;
 	bottom: 50px;
+	padding-top: 30px;
 }
 
 
@@ -241,18 +243,27 @@ th:hover {
 	font-size: 32px;
 }
 
+.holder {
+	display: inline;
+}
 
-@media (max-width: 900px) {
+
+@media (max-width: 950px) {
+
+	.footer ul {
+		display: flex;
+		padding-right: 125px;
+	}
 
 	ul {
 		display: block;
 		margin: 0px auto;
 		width: 150px;
+		padding-right: 36px;
 	}
 
 	li {
 		margin: 0px auto;
-
 		font-size: 18px;
 	}
 
@@ -264,12 +275,13 @@ th:hover {
 		font-size: 25px;
 	}
 
-	h3 {
+	h3.one, h3.two, h3.three, h3.four, h3.five, h3 {
 		font-size: 25px;
 	}
 
 	p {
 		font-size: 18px;
+		padding: 10px;
 	}
 
 	body {
@@ -286,6 +298,21 @@ th:hover {
 
 	.bubble {
 		padding: 0px;
+	}
+
+	.holder {
+		display: block;
+		width: 200px;
+		margin: auto;
+	}
+
+	td {
+		display: block;
+		text-align: center;
+	}
+
+	th {
+		display: block;
 	}
 
 }
