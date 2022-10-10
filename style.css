@@ -268,12 +268,20 @@ details {
 	transition-duration: 0.3s;
 }
 
+details:hover {
+	
+	transition-duration: 0.5s;
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px rgba(100,100,100,0.5);
+}
+
 summary {
 	padding: 30px;
 	font-size: 26px;
 	color: #11C8ED;
 	font-weight: bold;
 }
+
 
 details div {
 	font-size: 18px;
