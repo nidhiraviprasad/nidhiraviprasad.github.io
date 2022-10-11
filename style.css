@@ -359,4 +359,9 @@ details div {
 		display: block;
 	}
 
+	details {
+		width: 80%;
+		font-size: 16px;
+	}
+
 }
